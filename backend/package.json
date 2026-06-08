@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "echo build skipped",
-    "start": "tsx src/server.ts",
+    "start": "tsx src/database/seed.ts",
     "seed": "tsx src/database/seed.ts",
     "lint": "eslint src --ext .ts",
     "worker": "tsx src/queues/worker.ts"
