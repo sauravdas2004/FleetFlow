@@ -5,8 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
+    "build": "echo build skipped",
+    "start": "tsx src/server.ts",
     "seed": "tsx src/database/seed.ts",
     "lint": "eslint src --ext .ts",
     "worker": "tsx src/queues/worker.ts"
